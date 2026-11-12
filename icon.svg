@@ -1,10 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
   <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#4D7C6F"/>
-      <stop offset="1" stop-color="#10B981"/>
+    <linearGradient id="sfLeaf" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#76B341"/>
+      <stop offset="1" stop-color="#8CC652"/>
+    </linearGradient>
+    <linearGradient id="sfWave" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8CC759"/>
+      <stop offset="1" stop-color="#97CC64"/>
     </linearGradient>
   </defs>
-  <rect width="512" height="512" rx="112" fill="url(#g)"/>
-  <path d="M352 150c-96 0-176 56-176 152 0 26 6 48 16 66 18-62 64-112 128-136-52 34-88 84-100 150 18 8 38 12 60 12 92 0 136-80 136-176 0-24-4-48-10-68-14 0-34 0-54 0z" fill="#fff" fill-opacity=".95"/>
+  <rect width="512" height="512" rx="112" fill="#FBF8EE"/>
+  <g transform="translate(-34.2 73.5) scale(1.1562)"><path d="M299 168 C297 120 330 80 411 59 C405 110 385 150 345 164 C328 169 312 169 299 168 Z" fill="url(#sfLeaf)"/><path d="M120 199 C140 172 170 152 202 152 C240 152 262 175 300 188 C330 197 355 188 376 170 C366 200 340 218 302 218 C268 218 250 196 220 186 C186 175 150 180 120 199 Z" fill="url(#sfWave)"/><path d="M91 259 C108 232 135 206 172 206 C210 206 232 224 268 233 C300 241 328 238 347 222 C338 252 310 267 272 267 C240 267 222 248 192 239 C155 228 120 236 91 259 Z" fill="#B4D2A3" fill-opacity="0.9"/></g>
 </svg>
